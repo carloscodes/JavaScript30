@@ -10,10 +10,6 @@ html {
   font-family: sans-serif;
 }
 
-.simple-keyboard {
-  max-width: 850px;
-}
-
 .keys {
   display: flex;
   flex: 1;
