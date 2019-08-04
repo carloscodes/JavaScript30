@@ -21,9 +21,7 @@ keys.forEach(key => {
   key.addEventListener('transitionend', removeTransition);
 });
 
-// only display keyboard when on small device (assume mobile)
+// only display when on small device (assume mobile)
 if (window.outerWidth <= 1024) {
-  document.getElementById(
-    'change'
-  ).innerHTML = `<h1 style='font-size: 50px; color: white;'>Must use a device with a keyboard.</h1>`;
+  alert(`Must use a device with a keyboard.`);
 }
