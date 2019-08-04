@@ -5,6 +5,10 @@
     <title>JS Drum Kit</title>
     <link rel="stylesheet" href="style.css" />
     <script defer type="text/javascript" src="index.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/simple-keyboard@latest/build/css/index.css"
+    />
   </head>
   <body>
     <div class="keys">
@@ -56,5 +60,10 @@
     <audio data-key="75" src="sounds/tom.wav"></audio>
     <audio data-key="76" src="sounds/tink.wav"></audio>
     <audio data-key="81" src="sounds/growlers.mp3"></audio>
+
+    <input class="input" placeholder="Tap on the virtual keyboard to start" />
+    <div class="simple-keyboard"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/simple-keyboard@latest/build/index.js"></script>
   </body>
 </html>
