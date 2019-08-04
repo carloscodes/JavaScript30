@@ -23,5 +23,7 @@ keys.forEach(key => {
 
 // only display when on small device (assume mobile)
 if (window.outerWidth <= 1024) {
-  alert(`Must use a device with a keyboard.`);
+  document.getElementById(
+    'change'
+  ).innerHTML = `<h1 style='font-size: 40px; color: white;'>Please use a device with a keyboard.</h1>`;
 }
